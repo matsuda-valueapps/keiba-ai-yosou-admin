@@ -5,7 +5,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import { useRouter } from "next/navigation";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://api.keiba-ai-yosou.com";
 
 export default function BlogCreatePage() {
   const router = useRouter();

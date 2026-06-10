@@ -5,7 +5,7 @@ import axios from "axios";
 import Link from "next/link";
 import toast from "react-hot-toast";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://api.keiba-ai-yosou.com";
 
 export default function BlogsPage() {
   const [blogs, setBlogs] = useState<any[]>([]);

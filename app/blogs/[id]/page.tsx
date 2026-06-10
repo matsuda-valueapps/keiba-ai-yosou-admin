@@ -5,7 +5,7 @@ import axios from "axios";
 import { useParams, useRouter } from "next/navigation";
 import toast from "react-hot-toast";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://api.keiba-ai-yosou.com";
 
 type Blog = {
   id: number;

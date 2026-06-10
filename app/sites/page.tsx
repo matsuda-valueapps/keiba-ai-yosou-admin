@@ -167,7 +167,7 @@ export default function SitePage() {
                   <td className="p-2 border">
                     {site.image_url ? (
                       <img
-                        src={`http://127.0.0.1:8000${site.image_url}`}
+                        src={`https://api.keiba-ai-yosou.com${site.image_url}`}
                         className="w-16 h-16 object-cover mx-auto"
                       />
                     ) : (
