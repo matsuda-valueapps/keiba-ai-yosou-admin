@@ -30,7 +30,7 @@ export default function ReviewsPage() {
   const [comment, setComment] = useState("");
   const [createdAt, setCreatedAt] = useState("");
 
-  const baseUrl = "http://192.168.11.7:8000";
+  const baseUrl = "https://api.keiba-ai-yosou.com";
 
   // =========================
   // JST表示

@@ -9,7 +9,7 @@ import axios from "axios";
 // 🔥 API
 // =========================
 const API =
-  "http://192.168.11.7:8000";
+  "https://api.keiba-ai-yosou.com";
 
 
 // =========================

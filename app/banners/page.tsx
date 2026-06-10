@@ -45,7 +45,7 @@ export default function BannerPage() {
   // API BASE
   // =========================
   const BASE_URL =
-      "http://192.168.11.7:8000";
+      "https://api.keiba-ai-yosou.com";
 
   // =========================
   // 一覧取得
